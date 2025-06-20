@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Display greetings
-        run: echo "How are you boy , how is school  "
+        run: echo "How are you boy , how is schools  "
 
 
 
