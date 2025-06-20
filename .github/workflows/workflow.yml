@@ -16,6 +16,8 @@ jobs:
 
       - name: Display greetings
         run: echo "How are you boy , how is schools  "
+      - name: Display current date
+        run: echo "Current date is: $(date)"
 
 
 
