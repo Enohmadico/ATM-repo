@@ -1,4 +1,4 @@
-name: ATM CI
+name: rtgplus
 
 on:
   push:
