@@ -16,9 +16,6 @@ jobs:
 
 
       - name: Display greetings
-
-      - name: Display greetings
-
         run: echo "How are you boy , how is schools  "
 
 
