@@ -14,11 +14,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
- testing
+
       - name: Display greetings
 
       - name: Display greetings
- main
+
         run: echo "How are you boy , how is schools  "
 
 
