@@ -1,0 +1,22 @@
+name: ATM CI
+
+on:
+  push:
+    branches: [ dev ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Display greeting
+        run: echo "How are you boy , how is schools "
+
+
+
+      
