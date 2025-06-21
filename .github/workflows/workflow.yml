@@ -18,7 +18,7 @@ jobs:
         run: echo "How are you boy, how is school?"
 
       - name: Print contents of book.txt
-        run: Get-Content "ATM-repo\.github\workflows\book.txt"
+        run: Get-Content "C:\Users\enohe\Downloads\ATM\ATM-repo\.github\workflows\book.txt"
 
 
 
