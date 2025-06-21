@@ -2,7 +2,7 @@ name: ATM CI
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
@@ -14,13 +14,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
- testing
-      - name: Display greetings
+
+      - name: Display greeting
+        shell: pwsh
+        run: |
+          Write-Host "How are you, boy? How is school, done boy?"
+
+      - name: Display current date
+        shell: pwsh
+        run: |
+          Write-Host "Current date is: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
+
 
       - name: Display greetings
- main
         run: echo "How are you boy , how is schools  "
 
 
 
       
+ 
