@@ -17,7 +17,7 @@ jobs:
       - name: Display greeting
         run: echo "How are you boy, how is school?"
 
-      - name: Print contents of message.txt
+      - name: Print contents of book.txt
         run: Get-Content "book.txt"
 
 
