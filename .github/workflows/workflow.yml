@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Display greeting
-        run: echo "How are you boy, how is school?"
+        run: echo "How are you boy, how is schoolhgjhkhhggftrret5?"
 
       - name: Print contents of book.txt
         run: Get-Content ".github/workflows/book.txt"
