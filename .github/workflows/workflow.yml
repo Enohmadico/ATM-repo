@@ -2,7 +2,7 @@ name: rtgplus
 
 on:
   push:
-    branches: [ dev ]
+    branches: [ dev2 ]
   pull_request:
     branches: [ main ]
 
