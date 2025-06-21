@@ -15,7 +15,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Display greeting
-        run: echo "How are you boy , how is schools "
+        run: echo "How are you boy, how is school?"
+
+      - name: Print contents of message.txt
+        run: Get-Content "book.txt"
 
 
 
