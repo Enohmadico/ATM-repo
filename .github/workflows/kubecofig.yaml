@@ -1,4 +1,4 @@
-name: Deployrrtt to Kubernetes (Windows Runner)
+name: Deploy to Kubernetes (Windows Runner)
 
 on:
   push:
@@ -30,6 +30,10 @@ jobs:
           mkdir "$HOME\.kube"
           echo "${{ secrets.KUBE_CONFIG }}" | Out-File -Encoding ascii "$HOME\.kube\config.b64"
           certutil -decode "$HOME\.kube\config.b64" "$HOME\.kube\config"
+        shell: powershell
+
+      - name: 🔍 Debug kubeconfig content
+        run: type "$HOME\.kube\config"
         shell: powershell
 
       - name: Show kubeconfig context
