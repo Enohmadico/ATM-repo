@@ -28,7 +28,7 @@ jobs:
       - name: Set up kubeconfig
         run: |
           mkdir $HOME\.kube
-          echo "${{ secrets.KUBE_CONFIG }}" | Out-File -Encoding ascii $HOME\.kube\config.b64
+          echo "${{ secrets.UBECONFIG_B64 }}" | Out-File -Encoding ascii $HOME\.kube\config.b64
           certutil -decode $HOME\.kube\config.b64 $HOME\.kube\config
         shell: powershell
 
