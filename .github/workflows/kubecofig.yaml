@@ -1,4 +1,4 @@
-name: Deployrr to Kubernetes (Windows Runner)
+name: Deployrrtt to Kubernetes (Windows Runner)
 
 on:
   push:
